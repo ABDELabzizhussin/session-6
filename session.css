@@ -1,0 +1,114 @@
+*{
+    margin: 0px;
+}
+.ss{
+    background-color:rgb(15, 150, 150);
+    color: aliceblue;
+    border-radius: 10px 10px 0px 0px;
+    margin: 3px;
+   
+}
+.ss ul{
+    display: flex;
+    justify-content: center;
+   
+}
+.ss ul li{
+    padding: 20px;
+    
+}
+li:hover{
+   
+    font-size: 28px
+}
+
+
+.main{
+    background-image: url(aa.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: 100% 100%;
+
+}
+h1{
+    padding: 200px 10px 50px 20px;
+    font-size: 60px;
+    font-family:monospace;
+
+    
+}
+.main p{
+  width: 50%;  
+  font-size: 20px;
+  /* padding: 0 10px; */
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.aa{
+    text-align: center;
+    position: relative;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    
+}
+.aa::after{
+    content: "";
+    position: absolute;
+    width: 300px;
+    height: 4px;
+    background-color: rgba(34, 34, 147, 0.832);
+    top: 90%;
+    right: 40%;
+}
+.dd{
+   
+   display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 35px;
+    margin: 80px;
+    
+}
+.dd div:hover ~ div{
+    opacity: 0.5;
+    
+   
+}
+
+.dd div img{
+    width: 100%;
+    background-color:rgb(172, 194, 234);
+    
+}
+
+.dd div button{
+    
+    background-color:rgb(14, 39, 137);
+    color: aliceblue;
+    border-radius: 10px;
+    padding:  0 10px;
+    
+   
+   
+}
+.dd div:hover{
+    width: 120%;
+    z-index:1;
+   
+}
+.dd div{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    
+    
+  
+   
+   
+  
+   
+}
+.dd div p{
+    font-size: 30px;
+    padding: 10px;
+}
+
+
